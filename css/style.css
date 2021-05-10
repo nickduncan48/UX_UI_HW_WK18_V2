@@ -1,20 +1,29 @@
-
+body {
+    background-color: #0C0B1F;
+}
 h1 {
-    font-size: 50px;
+    font-size: 44px;
+    font-family:Impact;
     text-align: center;
+    color: #a4ab9e;
 }
 
 h3 {
     font-size: 25px;
     text-align: center;
+    color: #f2f2f2;
 }
 
 h4 {
     font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f2f2f2;
 }
 
 p {
     font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f2f2f2;
 }
 
 img {
@@ -24,23 +33,23 @@ img {
     width: 50%;
   }
 
-  #G2G {
-      width: 250px;
-      height: 250px;
+#G2G {
+      width: 200px;
+      height: 200px;
   }
 
-  #covid {
-    width: 250px;
-    height: 250px;
+#covid {
+    width: 200px;
+    height: 200px;
   }
 
 #usda {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 #travel {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
   .uxuiGrid {
@@ -57,22 +66,28 @@ img {
   }
 
   #twc {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   #nascar {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   #features {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   #documentary {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+  }
+
+  button {
+      border-radius: 10px;
+      background-color: #f2f2f2;
+      color: black;
   }
 
 
@@ -85,16 +100,16 @@ img {
 }
 
 #design {
-    width: 100px;
-    height: 100px;
+    width: 210px;
+    height: auto;
   }
 
   #video {
-    width: 100px;
-    height: 100px;
+    width: 185px;
+    height: auto;
   }
 
   #web {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto
   }
