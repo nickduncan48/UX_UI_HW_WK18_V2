@@ -14,6 +14,7 @@ li {
     display: inline-block;
     padding: 40px 20px;
     color: #f2f2f2;
+    font-size: 30px;
 
   }
 
@@ -22,6 +23,33 @@ li {
     height: 100px;
 }
 
+.heroGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: right;
+    margin-top: 50px;
+    padding-right: 200px;
+    background-color:#DDA602;
+    width: 40%;
+    height: 30%;
+    border: 1px solid;
+    box-shadow: 1px 5px white;
+    border-radius: 100px;
+    grid-gap: 40px;
+
+}
+
+.intro {
+    float: left;
+    padding-right: 200px;
+}
+
+.heroImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
 h1 {
     font-size: 44px;
     font-family:Impact;
@@ -55,28 +83,33 @@ img {
   }
 
 #G2G {
-      width: 200px;
+      width: 300px;
       height: 200px;
+      margin-bottom: 20px;
   }
 
 #covid {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 20px;
   }
 
 #usda {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 20px;
 }
 #travel {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 20px;
 }
 
   .uxuiGrid {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    grid-template-areas: ;
   }
 
 
@@ -87,33 +120,38 @@ img {
   }
 
   #twc {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 20px;
   }
 
   #nascar {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 20px;
   }
 
   #features {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 20px;
   }
   #documentary {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 20px;
   }
 
   button {
       border-radius: 10px;
       background-color: #f2f2f2;
       color: black;
+      font-size: 25px;
   }
 
 
   .flexContainer {
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto auto;
     grid-template-rows: 80px 200px;
     grid-gap: 10px;
@@ -134,3 +172,36 @@ img {
     width: 150px;
     height: auto
   }
+
+  .contactGrid {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto;
+      margin-top: 100px;
+
+  }
+
+  #email {
+      width: 125px;
+      height: 125px;
+      margin-bottom: 20px;
+  }
+
+  #phone {
+    width: 125px;
+    height: 125px;
+  }
+
+  #linkedin {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 20px;
+  } 
+
+  #twitter {
+    width: 125px;
+    height: 125px;
+  }
+
+  @media only screen and (max-width: 600px)
+  
