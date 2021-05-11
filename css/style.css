@@ -30,6 +30,7 @@ li {
     justify-content: right;
     margin-top: 50px;
     padding-right: 200px;
+    padding-left: 200px;
     background-color:#DDA602;
     width: 40%;
     height: 30%;
@@ -204,4 +205,3 @@ img {
   }
 
   @media only screen and (max-width: 600px)
-  
